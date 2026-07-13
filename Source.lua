@@ -12,7 +12,7 @@ local redzLib = {
     Version = "v1.2.2",
     PlaceName = MarketplaceService:GetProductInfo(game.PlaceId).Name
   },
-  Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/wx-sources/RedzLibV4/main/Themes.lua"))(),
+  Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/DRYzHUB/RedzLibV4/main/Themes.lua"))(),
   Flags = {},
   Save = {
     Theme = "Default",
@@ -20,7 +20,7 @@ local redzLib = {
     ScrollSize = 160,
     TransparencyHub = 0.1
   },
-  Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/wx-sources/RedzLibV4/main/Icons.lua"))() --[[
+  Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/DRYzHUB/RedzLibV4/main/Icons.lua"))() --[[
     I found this source on fluent but I don't know who created it
     source -- https://github.com/dawid-scripts/Fluent/blob/master/src/Icons.lua --
   ]],
@@ -1083,7 +1083,7 @@ function redzLib:MakeWindow(Configs)
         AnchorPoint = Vector2.new(1, 0.5),
         Position = UDim2.new(1, -10, 0.5, 0),
         BackgroundTransparency = 1,
-        Image = "rbxassetid://15155219405",
+        Image = "rbxassetid://121035659622295",
         ImageColor3 = Theme["Color Stroke"]
       }), "Stroke")
       
@@ -1701,7 +1701,7 @@ function redzLib:MakeWindow(Configs)
         Size = UDim2.new(0, 16, 0, 16),
         Position = UDim2.new(0, -5, 0.5, 0),
         AnchorPoint = Vector2.new(1, 0.5),
-        Image = "rbxassetid://15637313297",
+        Image = "rbxassetid://86615883364799",
         BackgroundTransparency = 1,
         Rotation = 180,
         ImageColor3 = Theme["Color Stroke"]
